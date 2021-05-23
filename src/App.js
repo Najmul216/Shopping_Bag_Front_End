@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import NavbarContainer from './components/layout/Navbar/NavbarContainer';
+import LandingPage from './components/layout/LandingPage';
+
 
 
 function App() {
   return (
     <div className="App">
-      <NavbarContainer />
+      <LandingPage />
     </div>
   );
 }
