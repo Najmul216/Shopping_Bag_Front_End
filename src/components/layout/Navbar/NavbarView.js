@@ -5,7 +5,7 @@ function NavbarView(props) {
         <React.Fragment>
             {/* <!-- Navbar Starts --> */}
 
-            <nav className="navbar navbar-expand-md navbar-dark bg-primary">
+            <nav id="pageTop" className="navbar navbar-expand-md navbar-dark bg-primary">
 
                 {/* <!-- Drawer Start --> */}
 
