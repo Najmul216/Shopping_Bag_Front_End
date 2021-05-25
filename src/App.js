@@ -1,13 +1,17 @@
 import React from 'react';
-import './App.css';
+//import './App.css';
 import LandingPage from './components/layout/LandingPage';
+import {useTranslation} from "react-i18next";
 
 
 
 function App() {
+  const [t, i18n] = useTranslation('common');
+
+
   return (
-    <div className="App">
-      <LandingPage />
+    <div>
+      <LandingPage t={t} i18n={i18n} />
     </div>
   );
 }
