@@ -14,5 +14,41 @@
             "prime_deal": "پرائم ڈیلز",
             "book": "کتاب"
         }
+    },
+    "footer": {
+        "back_to_top": "اوپر کی طرف واپس",
+        "upper": {
+            "col1": {
+                "title": "ہمیں بتائیں",
+                "about": "متعلقہ",
+                "career": "قبضہ",
+                "press_release": "اخبار کے لیے خبر",
+                "investment": "سرمایہ کاری",
+                "offers": "پیش کرتے ہیں"
+            },
+            "col2": {
+                "title": "ہم سے رابطہ کریں",
+                "facebook": "فیس بک",
+                "twitter": "ٹویٹر",
+                "instagram": "انسٹاگرام"
+            },
+            "col3": {
+                "title": "ہمارے ساتھ پیسہ کمائیں",
+                "amazon_seller": "مستند فروخت",
+                "affiliate_marketing": "منظور شدہ مارکیٹنگ",
+                "fullfilment_center": "تکمیل مرکز",
+                "advertise": "اپنی مصنوع کی تشہیر کریں",
+                "amazon_pay": "خالص تنخواہ"
+            },
+            "col4": {
+                "title": "ہماری مدد کریں",
+                "covid": "کوویڈ - 19",
+                "your_account": "آپ کا کھاتہ",
+                "returns": "واپس",
+                "funding": "فنانسنگ",
+                "help": "مدد"
+            }
+        },
+        "ending_title": " 2021, مستند ڈاٹ کام"
     }
 }

@@ -3,7 +3,7 @@ import React from 'react'
 function HomePageProductView() {
     return (
         <React.Fragment>
-            <div className="container mb-5 bg-primary" style={{ marginTop: "-200px" }}>
+            <div className="container mb-5 " style={{ marginTop: "-200px" }}>
 
                 {/* <!-- Prouct Row Starts --> */}
 

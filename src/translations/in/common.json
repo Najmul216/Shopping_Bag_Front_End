@@ -14,5 +14,41 @@
             "prime_deal": "प्रधान सौदे",
             "book": "पुस्तक"
         }
+    },
+    "footer": {
+        "back_to_top": "वापस शीर्ष पर",
+        "upper": {
+            "col1": {
+                "title": "हमें बताऐ",
+                "about": "सम्बंधित",
+                "career": "व्यवसाय",
+                "press_release": "प्रेस विज्ञप्ति",
+                "investment": "निवेश",
+                "offers": "प्रस्ताव"
+            },
+            "col2": {
+                "title": "संपर्क करें",
+                "facebook": "फेसबुक",
+                "twitter": "ट्विटर",
+                "instagram": "instagram"
+            },
+            "col3": {
+                "title": "हमारे साथ पैसे कमाएं",
+                "amazon_seller": "प्रामाणिक बेचें",
+                "affiliate_marketing": "स्वीकृत विपणन",
+                "fullfilment_center": "पूर्ति केंद्र",
+                "advertise": "अपने उत्पाद का विज्ञापन करें",
+                "amazon_pay": "शुद्ध वेतन"
+            },
+            "col4": {
+                "title": "हमारी मदद करो",
+                "covid": "कोविड -19",
+                "your_account": "आपका खाता",
+                "returns": "वापसी",
+                "funding": "फाइनेंसिंग",
+                "help": "मदद"
+            }
+        },
+        "ending_title": " 2021, प्रामाणिक डॉट कॉम में।"
     }
 }
