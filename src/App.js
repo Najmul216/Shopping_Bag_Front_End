@@ -17,7 +17,7 @@ function App() {
       {/* <LandingPage t={t} i18n={i18n} /> */}
 
       <NavbarContainer t={t} i18n={i18n} />
-      <LoginContainer />
+      <LoginContainer t={t} i18n={i18n} />
       <Footer t={t} i18n={i18n} />
     </div>
   );

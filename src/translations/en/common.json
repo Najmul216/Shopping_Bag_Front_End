@@ -50,5 +50,22 @@
             }
         },
         "ending_title": " 2021, Khati.com Inc."
+    },
+    "login": {
+        "title": "Login",
+        "lbl_email": "Email:",
+        "lbl_password": "Password:",
+        "email_info": "We'll never share your email with anyone else.",
+        "password_info": "Password must be at least 6 characters.",
+        "btn_signin": "Sign In",
+        "seperator_text": "New to Khati?",
+        "btn_register_text": "Create your Khati account",
+        "btn_login_google": "Sign in with Google",
+        "btn_login_facebook": "Sign in with Facebook"
+    },
+    "validation": {
+        "email_error": "Invalid email address.",
+        "password_error": "Invalid password.",
+        "ok": "OK"
     }
 }

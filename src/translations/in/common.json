@@ -50,5 +50,22 @@
             }
         },
         "ending_title": " 2021, प्रामाणिक डॉट कॉम में।"
+    },
+    "login": {
+        "title": "दर्ज",
+        "lbl_email": "ईमेल:",
+        "lbl_password": "कुंजिका:",
+        "email_info": "हम आपका ईमेल किसी और के साथ साझा नहीं करेंगे।",
+        "password_info": "पासवर्ड कम से कम 6 अक्षरों का होना चाहिए।",
+        "btn_signin": "दर्ज",
+        "seperator_text": "सच में नया?",
+        "btn_register_text": "अपना प्रामाणिक खाता बनाएं",
+        "btn_login_google": "Google के साथ लॉगिन करें",
+        "btn_login_facebook": "फेसबुक में साइन इन करें"
+    },
+    "validation": {
+        "email_error": "अमान्य ईमेल पता।",
+        "password_error": "अवैध पासवर्ड।",
+        "ok": "ठीक है"
     }
 }

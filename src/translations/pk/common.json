@@ -50,5 +50,22 @@
             }
         },
         "ending_title": " 2021, مستند ڈاٹ کام"
+    },
+    "login": {
+        "title": "داخل کریں",
+        "lbl_email": "ای میل:",
+        "lbl_password": "پاس ورڈ:",
+        "email_info": "ہم آپ کے ای میل کو کسی اور کے ساتھ اشتراک نہیں کریں گے۔",
+        "password_info": "پاس ورڈ کم از کم 6 حروف کا ہونا چاہئے۔",
+        "btn_signin": "داخل کریں",
+        "seperator_text": "واقعی نیا؟",
+        "btn_register_text": "اپنا مستند اکاؤنٹ بنائیں",
+        "btn_login_google": "گوگل کے ساتھ لاگ ان کریں",
+        "btn_login_facebook": "فیس بک میں سائن ان کریں"
+    },
+    "validation": {
+        "email_error": "غلط ای میل ایڈریس.",
+        "password_error": "غلط پاسورڈ.",
+        "ok": "ٹھیک ہے"
     }
 }
