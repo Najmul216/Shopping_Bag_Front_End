@@ -10,6 +10,7 @@ import { useTranslation } from "react-i18next";
 import NavbarContainer from './components/layout/Navbar/NavbarContainer';
 import Footer from './components/layout/Footer';
 import LoginContainer from './components/Login/LoginContainer';
+import RegisterContainer from './components/Register/RegisterContainer';
 
 
 
@@ -27,7 +28,10 @@ function App() {
           </Route>
           <Route exact path="/login" >
             <LoginContainer t={t} i18n={i18n} />
-          </Route>`
+          </Route>
+          <Route exact path="/register" >
+            <RegisterContainer t={t} i18n={i18n} />
+          </Route>
 
         <Footer t={t} i18n={i18n} />
       </div>

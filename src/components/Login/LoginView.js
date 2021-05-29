@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function LoginView(props) {
 
@@ -11,7 +12,7 @@ function LoginView(props) {
         <div className="container mb-5">
             <div className="card mx-auto mt-5 pb-3 shadow rounded" style={{ width: "25rem" }}>
                 <div className="card-body">
-                    <h4 className={`card-title ${rtl}`}>{t('login.title')}</h4>
+                    <h4 className={`card-title text-center text-success ${rtl}`}>{t('login.title')}</h4>
 
                     {/* <!-- Login Form Start --> */}
 
@@ -53,7 +54,7 @@ function LoginView(props) {
 
                     {/* <!-- Create account button --> */}
 
-                    <a href="register.html" className={`btn btn-primary btn-sm w-100 mt-2 ${rtl}`}>{t('login.btn_register_text')}</a>
+                    <Link to="/register" className={`btn btn-primary btn-sm w-100 mt-2 ${rtl}`}>{t('login.btn_register_text')}</Link>
                     <a href="#" className={`btn btn-outline-success btn-sm w-100 mt-2 ${rtl}`}>
                         <i className="fab fa-google"></i> {t('login.btn_login_google')}
                 </a>
