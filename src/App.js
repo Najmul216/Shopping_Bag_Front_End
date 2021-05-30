@@ -16,6 +16,7 @@ import NavbarContainer from './components/layout/Navbar/NavbarContainer';
 import Footer from './components/layout/Footer';
 import LoginContainer from './components/Login/LoginContainer';
 import RegisterContainer from './components/Register/RegisterContainer';
+import YourAccountContainer from './components/YourAccount/YourAccountContainer';
 
 
 
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route exact path="/register" >
             <RegisterContainer t={t} i18n={i18n} />
+          </Route>
+          <Route exact path="/your_account" >
+              <YourAccountContainer t={t} i18n={i18n} />
           </Route>
 
           <Footer t={t} i18n={i18n} />
