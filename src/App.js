@@ -5,6 +5,11 @@ import {
   Switch
 } from 'react-router-dom';
 //import './App.css';
+
+import { Provider } from 'react-redux'
+import store from './redux/store';
+
+
 import LandingPage from './components/layout/LandingPage';
 import { useTranslation } from "react-i18next";
 import NavbarContainer from './components/layout/Navbar/NavbarContainer';
@@ -14,15 +19,16 @@ import RegisterContainer from './components/Register/RegisterContainer';
 
 
 
+
 function App() {
   const [t, i18n] = useTranslation('common');
 
 
   return (
-    <Router>
-      <div>
-
-        <NavbarContainer t={t} i18n={i18n} />
+    <Provider store={store}>
+      <Router>
+        <div>
+          <NavbarContainer t={t} i18n={i18n} />
           <Route exact path="/">
             <LandingPage t={t} i18n={i18n} />
           </Route>
@@ -33,9 +39,10 @@ function App() {
             <RegisterContainer t={t} i18n={i18n} />
           </Route>
 
-        <Footer t={t} i18n={i18n} />
-      </div>
-    </Router>
+          <Footer t={t} i18n={i18n} />
+        </div>
+      </Router>
+    </Provider>
   );
 }
 
