@@ -66,6 +66,25 @@
     "validation": {
         "email_error": "غلط ای میل ایڈریس.",
         "password_error": "غلط پاسورڈ.",
+        "password2_error": "غلط ٹائپ پاس ورڈ",
+        "username_error": "آپ کے نام میں کچھ غلطیاں۔",
         "ok": "ٹھیک ہے"
+    },
+    "register": {
+      "title": "اندراج",
+      "lbl_name": "آپکا پورا نام: ",
+      "lbl_email": "ای میل: ",
+      "lbl_pass1": "پاس ورڈ: ",
+      "lbl_pass2": "دوبارہ پاسوورڈ لکھئے:  ",
+      "email_info": "ہم آپ کے ای میل کو کسی اور کے ساتھ اشتراک نہیں کریں گے۔",
+      "password_info": "پاس ورڈ کم از کم 6 حروف کا ہونا چاہئے۔",
+      "password2_info": "پاس ورڈ مندرجہ بالا ہونا چاہئے۔",
+      "btn_signin_text": "سائن ان",
+      "seperator_text": "سائن ان",
+      "btn_login_google": "گوگل کے ساتھ سائن ان کریں",
+      "btn_login_facebook": "فیس بک میں سائن ان کریں",
+      "btn_register": "اندراج",
+      "have_account_lft_text": "پہلے سے ہی ایک ہے ",
+      "have_account_rgt_text": " کھاتہ؟"
     }
 }

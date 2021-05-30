@@ -66,6 +66,25 @@
     "validation": {
         "email_error": "Invalid email address.",
         "password_error": "Invalid password.",
+        "password2_error": "Invalid re-type password.",
+        "username_error": "Some error in your name.",
         "ok": "OK"
+    },
+    "register": {
+      "title": "Register",
+      "lbl_name": "Your full name: ",
+      "lbl_email": "Email: ",
+      "lbl_pass1": "Password: ",
+      "lbl_pass2": "Re-Enter Password:  ",
+      "email_info": "We'll never share your email with anyone else.",
+      "password_info": "Password must be at least 6 characters.",
+      "password2_info": "Password must match the above.",
+      "btn_signin_text": "Sign In",
+      "seperator_text": "OR",
+      "btn_login_google": "Sign in with Google",
+      "btn_login_facebook": "Sign in with Facebook",
+      "btn_register": "Register",
+      "have_account_lft_text": "Already have an ",
+      "have_account_rgt_text": " account?"
     }
 }
