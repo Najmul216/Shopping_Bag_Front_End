@@ -86,5 +86,24 @@
       "btn_register": "Register",
       "have_account_lft_text": "Already have an ",
       "have_account_rgt_text": " account?"
+    },
+    "your_account": {
+      "title":"Your Account Dashboard",
+      "btn1": {
+        "title": "Your Orders",
+        "sub_title": "Track, return or buy things again."
+      },
+      "btn2": {
+        "title": "Password Change",
+        "sub_title": "You Can Change your password."
+      },
+      "btn3": {
+        "title": "Your Addresses",
+        "sub_title": "You Can Edit addresses for orders."
+      },
+      "btn4": {
+        "title": "Seller Account",
+        "sub_title": "Sell your products."
+      }
     }
 }
