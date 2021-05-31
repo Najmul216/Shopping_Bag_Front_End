@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import LoginView from './LoginView';
 
+//import Swal from 'sweetalert2'
+
 
 class LoginContainer extends Component {
 
@@ -23,6 +25,8 @@ class LoginContainer extends Component {
 
       handleSubmit = (e) => {
         e.preventDefault()
+
+        //Swal.fire("Login Successfully")
     
         console.log(this.state);
         // const user = {
