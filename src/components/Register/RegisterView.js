@@ -18,7 +18,7 @@ function RegisterView(props) {
 
                     {/* <!-- Register Form Start --> */}
 
-                    <form className="needs-validation" onSubmit={props.handleSubmit} autocomplete="off" noValidate >
+                    <form className="needs-validation" onSubmit={props.handleSubmit} autoComplete="off" noValidate >
                         <div className="form-group">
                             <label htmlFor="userName" className={`${rtl}`}>{t('register.lbl_name')}</label>
                             <input type="text" name="name" className={`form-control ${rtl}`} placeholder="Enter Your Name" id="userName"
