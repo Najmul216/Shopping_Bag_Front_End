@@ -1,37 +1,69 @@
 import {
-    REGISTER_ERROR,
-    REGISTER_RESPONSE,
-    REGISTER_REQUEST,
-    REGISTER_ERROR_CLEAR
-  } from './types'
+  REGISTER_ERROR,
+  REGISTER_RESPONSE,
+  REGISTER_REQUEST,
+  REGISTER_ERROR_CLEAR
+} from './types'
+
+import axios from 'axios';
+import {apiBaseURL} from './../../utils/constant';
 
 
 
-  export const registerRequest = (userData, history) => (dispatch) => {
+export const registerRequest = (user, history) => (dispatch) => {
+  // user register request start
+  dispatch({ type: REGISTER_REQUEST })
 
-  }
+  // clear all register errors if any
+  dispatch(registerErrorClear())
+
+  // AJAX call to register user
+  axios.post(
+    `${apiBaseURL}/api/users/register`,
+    user
+  ).then((res)=>{
+    // user register response received
+    dispatch(registerResponse())
+
+    console.log(res.data)
 
 
-  // Action creator for register errors
+    // redirect user to login page
+    history.push("/login")
+
+  }).catch((err)=>{
+
+    // set error related to register
+    dispatch(registerError(err.response.data.error))
+
+    // user register response received
+    dispatch(registerResponse())
+
+    console.log(err)
+    
+  })
+
+  
+}
+
+// Action creator for register errors
 export const registerError = (payload) => {
-    return {
-      type: REGISTER_ERROR,
-      payload: payload
-    }
+  return {
+    type: REGISTER_ERROR,
+    payload: payload
   }
+}
 
-
-  // Action creator for register process loading
+// Action creator for register process loading
 export const registerResponse = () => {
-    return {
-      type: REGISTER_RESPONSE
-    }
+  return {
+    type: REGISTER_RESPONSE
   }
+}
 
-
-  // Action creator for register errors clear
+// Action creator for register errors clear
 export const registerErrorClear = () => {
-    return {
-      type: REGISTER_ERROR_CLEAR
-    }
+  return {
+    type: REGISTER_ERROR_CLEAR
   }
+}
